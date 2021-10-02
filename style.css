@@ -245,6 +245,12 @@ small{
     margin-left:20px;
     display:none;
 }
+
+#menu_icon{
+    margin:13px;
+    padding:2px;
+}
+
 /* media query  */
 @media only screen and (max-width:800px){
     nav ul{
