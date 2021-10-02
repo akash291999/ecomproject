@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore | Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="" width=125px>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Account</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="images/cart.png" width=30px alt="">
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2 text">
+                <h1>Give your workout<br> a new style!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A <br>repellat temporibus maxime corporis in quaerat sequi ducimus totam?</p>
+                <a href="#" class=btn>Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61jgfLBydjL._SX679_.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </header>
+<!-- Featured Categories -->
+
+<div class="categories">
+    <div class="small-container">
+        
+        <div class="row">
+            <div class="col-3">
+                <img src="images/category-1.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="images/category-2.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="images/category-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Featured Products  -->
+
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img class="phone" src="smart/12pro.jpeg">
+            <h4>Iphone 12 Pro Max</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 1,29,000</p>
+        </div>
+        <div class="col-4">
+            <img class="phone" src="smart/12pro.jpeg" alt="">
+            <h4>Samsung Galaxy Note 20</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 1,30,999</p>
+        </div>
+        <div class="col-4">
+            <img class="phone" src="smart/12pro.jpeg" alt="">
+            <h4>Samsung Galaxy S20 Ultra</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+    </div>
+    <h2 class="title">Top Rated</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-9.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-10.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-11.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-12.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>&#8377; 999</p>
+        </div>
+    </div>
+</div>
+<!-- Offer -->
+<div class="offer">
+    <h2 class="title">RedStore Exclusive</h2>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/exclusive.png" alt="" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on RedStore</p>
+                <h1>Smart Band 4</h1>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa voluptatum sunt numquam facere.</small><br>
+                <a href="" class="btn">Buy Now &#8594</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Reviews -->
+<div class="review">
+    <h2 class="title">Customer Reviews</h2>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, deleniti. Doloremque fuga dignissimos dicta!</p>
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                <br>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-1.png" alt="" >
+                <h3>Dwayne Johnson</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, deleniti. Doloremque fuga dignissimos dicta!</p>
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                <br>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-1.png" alt="" >
+                <h3>Dwayne Johnson</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, deleniti. Doloremque fuga dignissimos dicta!</p>
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                <br>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-1.png" alt="" >
+                <h3>Dwayne Johnson</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Brands -->
+<div class="brands">
+    <h2 class="title">Our Major Brands</h2>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-godrej.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- footer  -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download Our App for Android And iPhone Smartphones</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, assumenda!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> Copyright &copy; Akash WebDesigns</p>
+    </div>
+</div>
+<!-- js  -->
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight="200px";
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
